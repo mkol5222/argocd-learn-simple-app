@@ -16,9 +16,9 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-name: httpbin3
-namespace: httpbin3
-annotations:
+  name: httpbin3
+  namespace: httpbin3
+  annotations:
    cert-manager.io/cluster-issuer: lets-encrypt
    nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
    nginx.ingress.kubernetes.io/upstream-vhost: "httpbin.org"
