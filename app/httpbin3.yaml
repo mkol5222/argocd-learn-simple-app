@@ -23,7 +23,7 @@ metadata:
    nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
    nginx.ingress.kubernetes.io/upstream-vhost: "httpbin.org"
 spec:
-  ingressClassName: public  
+  ingressClassName: public
   tls:
   - hosts:
     - httpbin3.klaud.online
