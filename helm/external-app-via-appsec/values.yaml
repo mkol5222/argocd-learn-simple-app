@@ -1,0 +1,4 @@
+webapp:
+  name: httpbin3
+  hostname: httpbin3.klaud.online
+  backendHostname: httpbin.org

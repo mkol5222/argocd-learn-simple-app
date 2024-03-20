@@ -1,0 +1,4 @@
+Your web app {{ .Values.webapp.name }} published:
+  {{ .Values.webapp.hostname }} -> {{ .Values.webapp.backendHostname }}
+
+Enjoy it!
